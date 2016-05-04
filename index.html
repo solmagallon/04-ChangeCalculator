@@ -1,47 +1,46 @@
 <!DOCTYPE html>
-<html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
-<head>
+                <h1>Change Calculator</h1>
+            
+        </head>
+    <body>
 
-<title> 04-Change Calculator  </title>
+        <div id="top">
+            <h3>
+            <p>How much is due for the sale?<br>
+            <input type="number" Id="cost" onkeyup="log()"/>
+                <br></p>
+            <p>How much has the customer given you?<br>
+            <input type="number" Id="payment" onkeyup="log()"/>
+                <br></p>
+                </h3>
+        </div>
+        <br>
 
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <div id="middle" >
+            <p id="dollarTitle">Dollars</p>
+                <br>
+            <p class="zero" id="dollar">0</p>
+        </div>
+        <br>
 
+        <div id="top">
+            <p id="changeTitle">Quarters</p>
+            <p id="changeTitle">Dimes</p>
+            <p id="changeTitle">Nickles</p>
+            <p id="changeTitle">Pennies</p>
+                <br>
+            <p class="zero" id="quarter">0</p>
+            <p class="zero" id="dime">0</p>
+            <p class="zero" id="nickle">0</p>
+            <p class="zero" id="penny">0</p>
+        </div>
 
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css' />
-
-	
-</head>
-<body>
-<div id="fb-root"></div>
-<div id="wrapper">
-  <!-- Header -->
-  <div id="header">
-    <h5>Sol Magallon <br>04-Change Calculator </h5>
-    <img class="logo" alt="" src="img/saca.jpg" style="width:100px;height:100px;"/> </div>
-  <!-- end -->
-    <div class="info">
-      <h2><Strong>Change Calculator</h2>
-      <p>Simple Product - a simple HTML template in a minimalist style, which you can get for free. Template is perfect for creating your own portfolio, and corporate website. Pure and simple appearance, provides maximum absorption of your information.</p>
-      <h3>What you get:</h3>
-      <ul class="get">
-        <li>A good site in a minimalist style that looks good.</li>
-        <li>Well structured understandable code. All the basic blocks commented.</li>
-        <li>Supports all major browsers.</li>
-      </ul>
-    </div>
-    <!-- end -->
-    <!-- Yelow buttons -->
-    <div class="buttons"> <a href="#" class="demo">View Demo</a> <a href="#" class="download">Free Download</a> </div>
-    <!-- end -->
-  </div>
-
-
-
-
-
-
-</body>
-
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>               
+    <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+            
+    </body>
 </html>

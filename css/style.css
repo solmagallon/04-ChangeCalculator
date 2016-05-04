@@ -1,7 +1,8 @@
 
 body {
-    background: url('../img/pat.png');
+    background: url('../img/money-93206_1280.jpg');
     font-family: 'Droid sans', Helvetica, Arial;
+
 }
 
 p::selection, h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,li::selection {
@@ -9,12 +10,25 @@ p::selection, h1::selection,h2::selection,h3::selection,h4::selection,h5::select
     background-color: #fd4e01;
 }
 
-h3 {
-    font-size: 16px;
+
+h1 {
+    font-size: 26px;
     font-weight: normal;
     margin-bottom: 10px;
 }
 
+h3 {
+  margin: 30px;
+  background-color: #fd4e01;
+  border: 1px solid black;
+  opacity: 0.6;
+  border: 2px solid black;
+  margin: 30px;
+}  
+
+
+
+}
 div#wrapper {
     width: 700px;
     background-color: #fff;
@@ -25,7 +39,8 @@ div#wrapper {
 div#header {
     width: 100%;
     height: 60px;
-    background: url('../img/header_bg.png') repeat-x #403f3f;
+    background: url('') repeat-x #403f3f;
+    opacity: .4;
 }
 
 img.logo {
@@ -48,92 +63,6 @@ div#content img.cover {
 
 
 div.slides {
-	width: 660px;
-	height: 380px;
+    width: 660px;
+    height: 380px;
 }
-
-/* Product info */
-div.info {
-    width: 500px;
-    padding: 25px 0 25px 0;
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-    margin: 25px auto 0 auto;
-}
-
-div.info h2 {
-    font-size: 24px;
-    font-weight: normal;
-}
-
-div.info h3 {
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-
-div.info p {
-    font-size: 12px;
-    line-height: 18px;
-    color: #5f5f5f;
-    margin-top: 13px;
-    text-align: justify;
-}
-/* end */
-
-/* Main buttons */
-div.buttons {
-    margin-top: 50px;
-    width: 362px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-a.demo, a.download {
-    display: block;
-    width: 171px;
-    height: 44px;
-    text-indent: -9999px;
-    float: left;
-}
-
-a.demo {
-    margin-right: 20px;
-    background: url('../img/demo_sprite.png') no-repeat;
-}
-
-a.download {
-    background: url('../img/download_sprite.png') no-repeat;
-}
-
-a.demo:hover, a.download:hover {
-    background-position: 0 -49px;
-}
-
-a.demo:active, a.download:active {
-    background-position: 0 -98px;
-}
-/* end */
-
-/* Footer */
-div#footer {
-    width: 100%;
-    margin-top: 60px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #e1e1e1;
-}
-
-/* end */
-
-ul.get li {
-    font-size: 12px;
-    margin-bottom: 10px;
-    color: #333;
-    margin-left: 15px;
-    padding-left: 18px;
-    background: url('../img/list.png') no-repeat;
-}
-
-
-/* end */
